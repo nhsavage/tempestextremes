@@ -25,8 +25,10 @@ else ifeq ($(UNAME),Linux)
     SYSTEM_MAKEFILE= cheyenne.make
   endif
   ifeq ($(SYSTEM),)
-    SYSTEM= AGRI
-    SYSTEM_MAKEFILE= agri.make
+    #SYSTEM= AGRI
+    #SYSTEM_MAKEFILE= agri.make
+    SYSTEM= MOHC
+    SYSTEM_MAKEFILE= mohc.make
   endif   
 endif
 

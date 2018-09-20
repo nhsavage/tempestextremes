@@ -9,7 +9,7 @@
 ###############################################################################
 # Configuration-independent configuration.
 
-CXXFLAGS+= -std=c++11
+CXXFLAGS+= -std=gnu++0x
 
 ifndef TEMPESTEXTREMESDIR
   $(error TEMPESTEXTREMESDIR is not defined)
